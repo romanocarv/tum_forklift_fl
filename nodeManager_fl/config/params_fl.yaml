@@ -1,0 +1,21 @@
+/streamManager_fl:
+  ros__parameters:
+    pub_logger_fr_: 100
+    pub_hb_fr_: 100
+    pub_streamState_fr_: 100
+    streamMan_fr_: 100
+    port_stream_front_A1_: 5400
+    port_stream_left_B2_: 5300
+    port_stream_right_C3_: 5500
+    port_stream_front_small_D4_: 5200 
+    port_stream_back_E5_: 5400
+    port_stream_back_small_F6_: 5200
+    port_stream_Fork_G7_: 5200
+    ip_fl1_client_ : 192.168.178.64
+    #use_sim_time: false
+
+/heartbeat_fl:
+  ros__parameters:
+    pub_hb_fr_: 100
+    pub_logger_fr_: 1000
+    use_sim_time: false
